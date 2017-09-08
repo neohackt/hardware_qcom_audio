@@ -317,7 +317,7 @@ ifneq ($(strip $(AUDIO_FEATURE_ENABLED_EXT_AMPLIFIER)),false)
     LOCAL_SRC_FILES += audio_extn/audio_amplifier.c
 endif
 
-LOCAL_CFLAGS += -Wall -Werror
+LOCAL_CFLAGS += -Wall 
 LOCAL_CLANG_CFLAGS += -Wno-unused-variable -Wno-unused-function -Wno-missing-field-initializers
 
 LOCAL_COPY_HEADERS_TO   := mm-audio
